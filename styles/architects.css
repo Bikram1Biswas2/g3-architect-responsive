@@ -38,6 +38,15 @@
 
 }
 
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
 /* Navbar style*/
 
 .bg-color {
@@ -91,6 +100,35 @@
     margin-bottom: 2rem;
 }
 
+/*  Teams container  and featured styles*/
+.teams{
+    align-items: center;
+    gap: 73px;
+}
+
+.img-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+
+  
+}
+.img-container img{
+    max-width: 100%;
+}
+.features{
+    max-width: 520px;
+}
+.feature-heading{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+#quick-list{
+    color: rgb(114, 114, 114);
+}
+#feature{
+    color: rgb(255, 144, 14);
+}
 
 /* responsive media query */
 
