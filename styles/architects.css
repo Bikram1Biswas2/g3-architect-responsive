@@ -35,6 +35,7 @@
     color: white;
     padding: 20px;
     border:none;
+    margin-top: 32px;
 
 }
 
@@ -124,6 +125,7 @@ main > section{
     font-size: 2.8rem;
 }
 #quick-list{
+    font-weight: 500;
     color: rgb(114, 114, 114);
 }
 #feature{
@@ -133,12 +135,20 @@ main > section{
 /* responsive media query */
 
 @media screen and (max-width:576px) {
-    .navbar, .nav-links{
+    .navbar, 
+    .nav-links,
+    .teams{
         flex-direction: column;
     }
     .banner-content {
         width: 100%;
         margin: 0 auto;
+        text-align: center;
+    }
+    .img-container{
+        grid-template-columns: 1fr;
+    }
+    .features{
         text-align: center;
     }
 }
