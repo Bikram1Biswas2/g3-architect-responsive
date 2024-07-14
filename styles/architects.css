@@ -140,6 +140,9 @@ main > section{
     .teams{
         flex-direction: column;
     }
+    .teams{
+        flex-direction: column-reverse;
+    }
     .banner-content {
         width: 100%;
         margin: 0 auto;
@@ -157,6 +160,12 @@ main > section{
     .banner-content {
         width: 100%;
         margin: 0 auto;
+        text-align: center;
+    }
+    .teams{
+        flex-direction: column-reverse;
+    }
+    .features{
         text-align: center;
     }
 }
